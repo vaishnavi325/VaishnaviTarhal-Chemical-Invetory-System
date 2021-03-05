@@ -1,0 +1,18 @@
+create database chemicals;
+
+ use chemicals;
+
+ create table register(salutation varchar(20) not null,fname varchar(20) not null,
+ lname varchar(20) not null, 
+ email varchar(30) primary key not null,
+ password varchar(30) not null,
+ phone_no varchar(10) not null,
+ job varchar(30) not null,
+ address varchar(60) not null);
+
+
+ create table product(cas_no int primary key not null,
+ chem_name varchar(30) not null,
+ GST int not null,
+ pack_size int not null, 
+ rs_per_pack int not null);
