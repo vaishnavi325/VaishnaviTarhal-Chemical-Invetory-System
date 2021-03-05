@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="addchemform.css" type="text/css">
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<div class="body">
+<center><font color="white" size="10"><a href="viewChemical.jsp">View All Records</a></font></center><br/>
+
+<div class="chem">Add New Chemical</div>
+<div class="main">
+<form action="addchem.jsp" method="post">
+<table>
+<tr><td>CAS NO:</td><td><input type="text" name="cas_no"/></td></tr>
+<tr><td>Chemical Name:</td><td><input type="text" name="chem_name"/></td></tr>
+<tr><td>GST in %:</td><td><input type="text" name="gst"/></td></tr>
+<tr><td>Pack Size in gm/ml:</td><td><input type="text" name="pack_size" /></td></tr>
+<tr><td>Price/Pack:</td><td><input type="text" name="rs_per_pack" /></td></tr>
+
+<tr><td colspan="2"><input type="submit" value="Add Chemical"/></td></tr>
+</table>
+</form>
+</div>
+
+</div>
+</html>

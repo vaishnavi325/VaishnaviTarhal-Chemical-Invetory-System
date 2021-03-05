@@ -1,0 +1,32 @@
+@CHARSET "ISO-8859-1";
+.body
+{
+	background-image:  url("menuimg.jpg");
+	background-size: cover;
+	background-position:center;
+	font-family: sans-serif;
+	margin-top: 10px;
+	
+}
+
+.main{
+	
+	background-color:#e5e5e5;
+	width: 400px;
+	margin: auto;
+	margin-left: 233px;
+	margin-top: 30px;
+	padding: 30px 40px 30px 40px;
+	text-align: center;
+	
+}
+.chem{
+	width: 500px;
+	background-color: black;
+	margin: auto;
+	margin-top:40px;
+	color:white;
+	padding: 10px 0px 10px 0px;
+	text-align: center;
+	border-radius:15px 15px 0px 0px; 
+}

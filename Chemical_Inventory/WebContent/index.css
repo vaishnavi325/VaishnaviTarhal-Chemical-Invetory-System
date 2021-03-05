@@ -1,0 +1,92 @@
+#body
+{
+	background:#c1c1c1;
+	font-size: 12px;
+	background: url("background.jpg")no-repeat;
+	height:1100px;
+}
+#banner
+{
+	background: url("menuimg.jpg");
+	height:200px;
+	text-align: center;
+	font-size: 40px;
+	text-decoration: none;
+	color:white;
+}
+#menu
+{
+	width:890px;
+	margin:50px auto;
+	background-color: #ff8040;
+	border-radius: 6px;
+	
+}
+
+#menu, #menu ul
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#menu:BEFORE, #menu:AFTER {
+	content:'';
+	display: table;
+}
+
+#menu:AFTER {
+	clear: both;
+}
+#menu li
+{
+	float:left;
+	box-shadow: 1px 0 0 #444;
+	position: relative;
+}
+
+#menu a
+{
+	float:left;
+	padding:12px 30px;
+	text-transform: uppercase;
+	font-family: baloo;
+	text-decoration: none;
+	color: white;
+}
+
+#menu li:hover>a
+{
+	color:#fafafa;
+	background: #262626;
+}
+#menu ul
+{
+	margin: 20px 0 0 0;
+	opacity: 0;
+	visibility: hidden;
+	position: absolute;
+	top:40px;
+	left:0;
+	z-index: 1;
+	background: #262626;
+	border-radius: 3px;
+	transition:all .3s ease-in-top;
+}
+
+#menu li:hover>ul
+{
+	opacity: 1;
+	visibility: visible;
+	margin:0;
+}
+#footer
+{
+   margin: 700px 50px 0px 0px;
+ 
+}
+
+#theme-default .nivoSlider img {
+    margin-bottom: 0px!important;
+    height:300px!important;
+ }
